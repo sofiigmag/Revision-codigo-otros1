@@ -3,8 +3,8 @@
 
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
-/* cambié el nombre de las variables para que sean más fáciles de entender y eliminé
-el punto y el #  */
+/* cambié el nombre de las variables para que sean más fáciles de entender y agregué
+un punto en name porque al parecer se refiere a una clase */
 const name = document.querySelector('.name');
 const blog = document.querySelector('#blog');
 const userLocation = document.querySelector('.location');
